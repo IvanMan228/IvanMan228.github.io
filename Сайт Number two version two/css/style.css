@@ -1,0 +1,36 @@
+.main{
+	column-count: 4;
+	column-gap: 1;
+	width: 90%;
+	margin: auto;
+	background-color: darkred;
+	padding-right:50px ;
+	padding-left: 50px;
+	box-shadow: 0 0 50px 10px black;
+}
+.image{
+	max-width: 100%;
+	height: 600px;
+	display:block;
+	transition: 1s;
+}
+.image+.image{
+	margin:5px;
+}
+body{
+	background-color: darkblue;
+}
+.heading{
+	color:black;
+	font-size: 75px;
+	widht:100%;
+	text-align:center;
+	font-family: 'Pacifico', cursive;
+
+}
+.image:hover{
+	filter:contrast(500%) ;
+}
+.heading:hover{
+	font-size:80px;
+}
