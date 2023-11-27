@@ -1,0 +1,264 @@
+.container{
+	margin:0 170px;
+}
+.header{
+	background-image: url(../img/bg.png);
+	height: 100vh;
+	background-size: cover;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+.header-line{
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.nav-item{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 21px;
+	margin-right: 25px;
+}
+.cart{
+	border-right: 1px solid white;
+	padding-right: 10px;
+	height: 50px;
+	position: relative;
+}
+.cart-img{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	height: 20px;
+	width: 20px;
+}
+.num{
+	color:white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+}
+.phone-text{
+	color:white;
+	font-weight:450 ;
+	font-size: 18px;
+	width: 70%;
+}
+.phone-holder{
+	display: flex;
+	align-items: center;
+}
+.button{
+	background-color:#FF7400;
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+	font-weight: 600;
+}
+.button:hover{
+	background-color: #953deb;
+}
+.nav-item:hover{
+	color:grey;
+	text-shadow:0 0 3px grey;
+	transition: 0.5s;
+}
+.num:hover{
+	color:grey;
+	text-shadow:0 0 3px grey;
+	transition: 0.5s;
+}
+.phone-text:hover{
+	color:grey;
+	text-shadow:0 0 3px grey;
+	transition: 0.5s;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header-down{
+	position: relative;
+}
+.header-title{
+	color:#D67E35;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 650;
+	position:absolute;
+	margin-top: 220px;
+	margin-bottom:15px;
+}
+.header-suptitle{
+	color: white;
+	font-size: 20px;
+}
+.header-subtitle{
+	font-size: 60px;
+	font-weight: 550;
+}
+.header-suptitle:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 60px;
+	background-color: white;
+	top:163px;
+	left:95px;
+}
+.header-suptitle:before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 60px;
+	background-color: white;
+	top:163px;
+	right:95px;
+}
+.header-button{
+	background-color:#FF7400;
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	font-weight: 600;
+	font-size: 15px;
+}
+.header-button:hover{
+	background-color:  #953deb;
+}
+.cards-holder{
+	display:flex;
+	justify-content: space-between;
+}
+.card{
+	width: 350px;
+	box-shadow: 10px 10px 40px 10px yellow;
+	margin-top: -70px;
+	background-color: white;  
+}
+.card-title{
+	display: flex;
+	
+	justify-content: center;
+	padding: 10px;
+	font-family: Tinos;
+	font-size: 26px;
+	color:#2C2C2C;
+}
+.card-image{
+	display: flex;
+	justify-content: center;
+	padding-top:30px ;
+}
+.card-desc{
+    font-family: Tinos;
+    text-align: center;
+    color:#656363;
+    font-size:26px;
+    font-weight: 400px;
+    padding-bottom: 20px;
+}
+.card-title span{
+color:green;
+padding-left: 8px;
+}
+.history{
+	margin-top: 170px;
+}
+.history-title{
+	font-family: Tinos;
+	font-size:54px;
+	font-weight: 400;
+	text-align:center;
+	width: 444px;
+}
+.history-title span{
+	color:green;
+}
+.history-desc{
+	color:#656363;
+	width: 444px;
+	text-align: center;
+	padding-top: 25x; 
+	font-size: 18px;
+}
+.history-number{
+	display: flex;
+	width: 444px;
+	justify-content: center;
+	margin-left:35px;
+	margin-top:50px;
+}
+.number-item{
+	margin-right: 60px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Open Sans;
+	color:#BC9060;
+}
+.history-number span{
+	display: block;
+	color:black;
+	font-size:20px;
+	font-weight: 400;
+} 
+.history-images{
+	position: relative;
+}  
+.image-1{
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	z-index: 100;
+}
+.history-holder{
+	display: flex;
+}
+.image-2{
+	position: absolute;
+	top: -20px;
+	left: 300px;
+	z-index:0;
+}
+.image-3{
+	position: absolute;
+	top: 35px;
+	left: 400px;
+	z-index:-100;
+}
+.image-4{
+	position: absolute;
+	top:150px;
+	left: 450px;
+	z-index:200;
+}
+.dishes-title{
+	font-family:Tinos ;
+	font-size: 62px;
+	font-weight: 294;
+	text-align: center;
+	padding: 130px;
+}
+.dishes-title span{
+	color: #D67E34;
+}
+.burgers{
+	display: flex;
+	justify-content: center;
+}
+.burgers-item{
+	display: flex;
+	align-items: center;
+	margin-bottom: 29px;
+	margin-left: 40px;
+}
+.text-burger{
+	font-family: Tinos;
+	font-size: 26px;
+	margin-left: 20px;
+	font-weight: 400;
+}
